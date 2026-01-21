@@ -1,0 +1,8 @@
+# Netlify 배포 설정 파일
+[build]
+  publish = "."
+  
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
